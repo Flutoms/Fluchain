@@ -1,0 +1,49 @@
+name: flu_web_chain
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  # For web3
+  flutter_web3: ^2.1.6
+
+  # For state management
+  flutter_riverpod: ^0.14.0+3
+
+  # QR Code scanner
+  qr_flutter: ^4.0.0
+
+  # Google fonts
+  google_fonts: ^2.2.0
+
+  # Websockets
+  web_socket_channel: ^2.1.0
+
+  # For SVG image
+  flutter_svg: ^0.22.0
+
+#  flutter_web3_provider: ^1.0.6
+  provider: ^6.0.2
+#  web3dart: ^2.3.5
+  http:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
